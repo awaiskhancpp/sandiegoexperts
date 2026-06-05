@@ -1,0 +1,322 @@
+{
+  "brand": {
+    "name": "San Diego Website Experts",
+    "phone": "+1 (370) 504-6305",
+    "phoneHref": "tel:+13705046305",
+    "whatsappHref": "https://wa.me/13705046305",
+    "email": "hello@sandiego.agency",
+    "emailHref": "mailto:hello@sandiego.agency",
+    "website": "sandiego.agency",
+    "logo": "/logo-new.png",
+    "logoHeader": "/logo-header.png"
+  },
+
+  "header": {
+    "navLinks": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Case Studies", "href": "#case-studies" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": {
+      "label": "Get Free Website Audit",
+      "href": "#contact"
+    }
+  },
+
+  "hero": {
+    "badge": "Rated 4.9/5  ·  San Diego's Most Trusted Web Agency",
+    "headline": "Turn Your Website Into A Lead-Generating Growth Engine",
+    "subheadline": "Get a custom website or redesign plan made to improve your brand, user experience, speed, SEO, and lead generation.",
+    "cta": "Get Free Website Audit",
+    "heroBanner": "/hero-banner.png",
+    "trustLabel": "over 4.5k brands already trust us with their digital services — you should too.",
+    "trustLogos": [
+      "Anchor Garage", "ALDAN", "CASLR", "InVaincu", "Selected",
+      "Anchor Garage", "ALDAN", "CASLR", "InVaincu", "Selected",
+      "Anchor Garage", "ALDAN"
+    ]
+  },
+
+  "services": [
+    {
+      "color": "rgb(255,227,100)",
+      "title": "Service Business Websites",
+      "description": "For local businesses, contractors, consultants, clinics, legal firms, and professional services.",
+      "icon":"/icons/service_website.png"
+    },
+    {
+      "color": "rgb(189,254,153)",
+      "title": "Ecommerce Websites",
+      "description": "For brands that need better product pages, smoother shopping journeys, and stronger trust.",
+      "icon":"/icons/ecommerce_website.png"
+    },
+    {
+      "color": "rgb(254,192,153)",
+      "title": "Landing Pages",
+      "description": "For paid ads, campaigns, service offers, and lead magnet funnels.",
+      "icon":"/icons/landing_page.png"
+    },
+    {
+      "color": "rgb(153,217,254)",
+      "title": "Custom Websites",
+      "description": "For businesses that need advanced features, custom flows, or scalable development.",
+      "icon":"/icons/custom_website.png"
+    },
+    {
+      "color": "rgb(239,153,254)",
+      "title": "Lead Generation Website",
+      "description": "For businesses that need more calls, bookings, quote requests, or consultation forms.",
+      "icon":"/icons/lead_generation.png"
+    }
+  ],
+
+  "whySection": {
+    "label": "Facing Issues",
+    "headline": "Why Most Websites Don't Convert Visitors into Clients",
+    "subheadline": "If visitors don't understand your offer, trust your business, or see a clear next step, they leave without taking action.",
+    "image": "/adobe-express.png",
+    "problems": [
+      { "title": "Slow Loading Speed:", "description": "Every second counts—slow sites lose leads." },
+      { "title": "Poor User Experience:", "description": "Confusing navigation frustrates visitors." },
+      { "title": "SEO Mistakes:", "description": "Low visibility in search reduces potential leads." },
+      { "title": "Outdated Design:", "description": "Lack of trust and credibility turns clients away." },
+      { "title": "No Clear Call-to-Action:", "description": "Visitors leave without knowing the next step." }
+    ]
+  },
+
+  "howWeWork": {
+    "label": "Solution Overview",
+    "headline": "How We Turn Websites Into Growth Engines",
+    "subheadline": "If visitors don't understand your offer, trust your business, or see a clear next step, they leave without taking action.",
+    "mockupImage": "/hero-banner.png",
+    "mockupSlides": [
+      "/hero-banner.png",
+      "/testimonial.png",
+      "/cta-bg.png",
+      "/hero-banner.png",
+      "/testimonial.png"
+    ],
+    "solutions": [
+      { "title": "Custom UX & Design", "description": "Brand-aligned layouts that guide visitors toward action." },
+      { "title": "Conversion-Focused Development", "description": "Every element built to turn traffic into leads." },
+      { "title": "SEO & Speed Optimization", "description": "Rank higher, load faster, convert more." },
+      { "title": "Ongoing Support & Maintenance", "description": "We stay by your side long after launch day." },
+      { "title": "Custom UX & Design", "description": "Brand-aligned layouts that guide visitors toward action." },
+      { "title": "Conversion-Focused Development", "description": "Every element built to turn traffic into leads." }
+    ],
+    "ctaPrompt": "Not sure what's holding your website back?",
+    "ctaSubtext": "If visitors don't understand your offer, trust your business, or see a clear next step, they leave without taking action.",
+    "ctaButton": "Start Your Project",
+    "positives": ["Start Immediately", "Top 1% talents", "24 hours turn around"],
+    "negatives": ["No wait for contracts or proposals.", "No sloppy & unreliable freelancers", "No last minute delays"]
+  },
+
+  "testimonials": {
+    "label": "Real Story",
+    "headline": "Our results speak for themselves",
+    "ctaButton": "Get Results Like These",
+    "image": "/testimonial.png",
+    "people": [
+      { "name": "Henry", "role": "E-commerce Entrepreneur" },
+      { "name": "Sarah M.", "role": "Real Estate Agent" },
+      { "name": "Dan K.", "role": "SaaS Founder" },
+      { "name": "Maria L.", "role": "Local Business Owner" }
+    ]
+  },
+
+  "waveGoodbye": {
+    "headline": "Wave goodbye to",
+    "items": [
+      "missed deadlines",
+      "disorganized workflows",
+      "unnecessary complexity",
+      "slow progress",
+      "wasted time"
+    ],
+    "stats": [
+      { "value": "150+", "label": "Team Collaborations", "useAvatars": true },
+      { "value": "500+", "label": "Tasks Completed" },
+      { "value": "50+",  "label": "Projects Managed" },
+      { "value": "100+", "label": "Successful Integrations" }
+    ],
+    "avatarImage": "/avatars.png",
+    "statBadge": "/stat-badge.png"
+  },
+
+  "workWithUs": {
+    "label": "Work with San Diego Website Experts",
+    "headline": "All your hard-earned traffic is wasted effort if it doesn't convert.",
+    "body": "If visitors don't understand your offer, trust your business, or see a clear next step, they leave without taking action—losing you valuable leads and revenue. Every unclear message, confusing layout, or slow-loading page is a missed opportunity for growth.\n\nAt San Diego Website Experts, we analyze your website through a comprehensive audit, identify what's holding back conversions, and implement a custom redesign focused on clarity, speed, and user experience. The result? Your visitors stay engaged, trust your brand, and take action—turning your hard-earned traffic into real leads and measurable business growth.",
+    "ctaButton": "Let's Work Together"
+  },
+
+  "process": {
+    "headline": "4 Easy Steps To Your Goals",
+    "steps": [
+      { "num": "01", "title": "Discovery & Planning", "description": "Analyze your current website, understand your audience, and map out the strategy to drive leads and conversions." },
+      { "num": "02", "title": "Design & UX", "description": "Design a clean, modern, and conversion-focused website layout tailored to your brand and audience." },
+      { "num": "03", "title": "Development & Optimization", "description": "Develop your website with speed, SEO, and mobile-first best practices. Optimize every element for lead generation." },
+      { "num": "04", "title": "Launch & Growth", "description": "Launch your site, monitor performance, and continuously optimize to maximize leads and business growth." }
+    ]
+  },
+
+  "statistics": {
+    "label": "Statistics",
+    "headline": "See Your\nWealth Grow",
+    "statIconDark": "/stat-icon-dark.svg",
+    "statIconWhite": "/stat-icon-white.svg",
+    "stats": [
+      { "value": "98%",   "description": "Transactions are\nprocessed successfully", "dark": false, "icon": true },
+      { "value": "$10K+", "description": "Our users' average\nsaving amount",          "dark": false, "icon": false },
+      { "value": "50%",   "description": "Effective in financial\ngrowth than before",    "dark": true,  "icon": true }
+    ]
+  },
+
+  "roadmap": {
+    "headline": "The Roadmap to Your Brand's Success",
+    "result": "Result: 30–50% Higher Conversions Because Every Touchpoint Is Optimized For The Next Step.",
+    "traditional": {
+      "title": "Traditional Approach",
+      "points": [
+        "Landing Page And Website Updates Handled Separately",
+        "CRO Happens As An Afterthought",
+        "Optimizations Happen In Silos"
+      ],
+      "metrics": [
+        { "label": "Sessions",         "value": "132",   "badge": "↑172%",  "badgeColor": "#22c55e" },
+        { "label": "Total Sales",      "value": "$38",   "badge": "—",      "badgeColor": "#999" },
+        { "label": "Orders",           "value": "6",     "badge": "—",      "badgeColor": "#999" },
+        { "label": "Conversion Rate",  "value": "0.45%", "badge": "—",      "badgeColor": "#999" }
+      ],
+      "chartDateLabel": "Nov 8–Dec 8, 2025",
+      "chartLegend": ["Nov 8–Dec 8, 2025", "Oct 8–Nov 7, 2025"],
+      "chartXLabels": ["Nov 8","Nov 14","Nov 20","Nov 26","Dec 2"]
+    },
+    "sandiego": {
+      "title": "San Diego Website Experts' Integrated Approach",
+      "points": [
+        "Every Element Is Designed To Work Together",
+        "Website Performance Drives Marketing And Ad Strategy",
+        "Continuous Optimization Improves Your Entire Lead-Generation Funnel"
+      ],
+      "conversionTitle": "Online Store Conversion Rate",
+      "conversionRate": "4.34%",
+      "conversionBadge": "↑5.00%",
+      "conversionRows": [
+        { "label": "Added To Cart",      "sessions": "10,562 Sessions", "pct": "80.19%", "arrow": "↑82%" },
+        { "label": "Reached Checkout",   "sessions": "8,016 Sessions",  "pct": "41.08%", "arrow": "↑32%" },
+        { "label": "Sessions Converted", "sessions": "7,500 Sessions",  "pct": "69.30%", "arrow": "↑49%" }
+      ]
+    }
+  },
+
+  "caseStudies": {
+    "label": "Case Studies",
+    "headline": "Building Fashion Websites That Convert. Here's Proof",
+    "clientLogo": "/alunia-logo.png",
+    "clientDesc": "Get your team, department, and company running smoothly with the industry's best project management solution.",
+    "metrics": [
+      { "value": "40%", "label": "Added to cart" },
+      { "value": "35%", "label": "Reached Checkout" },
+      { "value": "50%", "label": "Conversion Rates" }
+    ]
+  },
+
+  "revenueGap": {
+    "stats": [
+      { "value": "310+",  "label": "Average Conversion Uplift Across All Clients" },
+      { "value": "+170%", "label": "In Tracked Client Revenue Generated" },
+      { "value": "8–12%", "label": "Conversion Rate On Our Optimised Dental Pages" },
+      { "value": "30d",   "label": "Most Clients See Measurable Lift Within 30 Days" }
+    ],
+    "avatar1": "/avatar-1.jpg",
+    "avatar2": "/avatar-2.jpg"
+  },
+
+  "pricing": {
+    "label": "Pricing",
+    "headline": "Simple plans for serious work",
+    "trust": "Trusted by 500+ local businesses, startups, and professionals across San Diego",
+    "plans": [
+      {
+        "label": "Starting Price",
+        "desc": "Customized for those who value clarity and certainty in their budget.",
+        "price": "$1899",
+        "suffix": "One time",
+        "features": [
+          "In depth CRO audit",
+          "Custom Page Design",
+          "Landing Page Development",
+          "Responsive And Mobile First Design",
+          "Dedicated Team To Your Project",
+          "Single Product Graphic Designs"
+        ]
+      },
+      {
+        "label": "Hourly Basis",
+        "desc": "Customized for those who require custom support for their custom requirements.",
+        "price": "$50",
+        "suffix": "/hour",
+        "features": [
+          "Pay as you go",
+          "Integration of New Functionalities",
+          "Flexible for larger projects",
+          "Dedicated 24/7 Support",
+          "Ongoing A/B testing"
+        ]
+      },
+      {
+        "label": "Custom",
+        "desc": "Customized for those who require custom work and custom pricing.",
+        "price": "Custom",
+        "suffix": "",
+        "features": [
+          "Pay as you go",
+          "Suitable for Custom Work",
+          "Flexible for larger projects",
+          "Flexible team choice",
+          "Responsive and Mobile First Design",
+          "Dedicated 24/7 Support"
+        ]
+      }
+    ]
+  },
+
+  "faq": {
+    "headline": "FAQs",
+    "left": [
+      {
+        "q": "What makes our pages perform better?",
+        "a": "Strategy. Every piece of work we do is backed by deep research and analysis of customer psychology, buyer behavior, top-performing advertising angles, competitor strategies, etc. That's why at the beginning of each project we ask to take a look through your data & analytics.",
+        "defaultOpen": true
+      },
+      { "q": "How long does it take?", "a": "Typical projects are completed in 2–4 weeks depending on scope. Rush timelines are available for time-sensitive launches." },
+      { "q": "What do we need in order to get started?", "a": "Just a brief overview of your brand, your goals, and access to any existing assets (logo, copy, etc.). We guide you through the rest." }
+    ],
+    "right": [
+      { "q": "Do you offer ongoing maintenance?", "a": "Yes — all plans include a support period, and we offer ongoing retainer packages for clients who want continuous optimization and growth." },
+      { "q": "Will my website be mobile-friendly?", "a": "Absolutely. Every project we build is mobile-first by design — responsive, fast, and tested across all major devices." },
+      { "q": "What if I'm not happy with the result?", "a": "We work iteratively with your feedback throughout the project. We don't consider a project done until you're fully satisfied." },
+      { "q": "Do you handle SEO?", "a": "Yes — all builds include technical SEO foundations: semantic markup, page speed optimization, meta tags, and sitemap setup." }
+    ]
+  },
+
+  "contact": {
+    "badge": "Start the conversation today",
+    "headline": "Start your Project Today",
+    "bgImage": "/cta-bg.png",
+    "contactTitle": "Let's work together",
+    "emailLabel": "Do you prefer email?",
+    "teamMember": {
+      "name": "Laim Noah",
+      "role": "Team leader",
+      "image": "/team-member.png"
+    },
+    "howWeConnect": [
+      "We reply within 24 hours.",
+      "Direct access to our team — no bots.",
+      "We ask smart questions fast."
+    ]
+  }
+}

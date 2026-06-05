@@ -1,0 +1,622 @@
+@import "tailwindcss";
+
+/* ── Aeonik ───────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/aeonik/Aeonik-Regular.woff2') format('woff2'),
+       url('/fonts/aeonik/Aeonik-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/aeonik/Aeonik-Medium.woff2') format('woff2'),
+       url('/fonts/aeonik/Aeonik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/aeonik/Aeonik-Bold.woff2') format('woff2'),
+       url('/fonts/aeonik/Aeonik-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/aeonik/Aeonik-Black.woff2') format('woff2'),
+       url('/fonts/aeonik/Aeonik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Regular.eot');
+  src: url('/fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('/fonts/SpaceGrotesk-Regular.woff') format('woff'),
+    url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Light.eot');
+  src: url('/fonts/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+    url('/fonts/SpaceGrotesk-Light.woff') format('woff'),
+    url('/fonts/SpaceGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-SemiBold.eot');
+  src: url('/fonts/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+    url('/fonts/SpaceGrotesk-SemiBold.woff') format('woff'),
+    url('/fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Bold.eot');
+  src: url('/fonts/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+    url('/fonts/SpaceGrotesk-Bold.woff') format('woff'),
+    url('/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Medium.eot');
+  src: url('/fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+    url('/fonts/SpaceGrotesk-Medium.woff') format('woff'),
+    url('/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-BoldItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-BoldItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-BoldItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-BlackItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-BlackItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-BlackItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Bold.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Bold.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Bold.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Black.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Black.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Black.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraBoldItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBoldItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBoldItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraBold.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBold.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBold.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtLtIta.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtLtIta.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtLtIta.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtLtIta.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtLtIta.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraLight.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraLight.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraLight.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Light.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Light.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Light.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Medium.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Medium.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Medium.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-MediumItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-MediumItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-MediumItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Italic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Italic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Italic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-Regular.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-Regular.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-Regular.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-LightItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-LightItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-LightItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-SemiBold.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBold.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBold.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heuvel';
+  src: url('/fonts/heuvel/HeuvelGrotesk-SemiBoldItalic.eot');
+  src: url('/fonts/heuvel/HeuvelGrotesk-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBoldItalic.woff2') format('woff2'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBoldItalic.woff') format('woff'),
+    url('/fonts/heuvel/HeuvelGrotesk-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+:root {
+  --background: #ceebff;
+  --foreground: #0a0a0a;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: 'Aeonik', sans-serif;
+  --font-body: var(--font-inter), 'Inter', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --font-display: var(--font-dancing-script), cursive;
+  --font-malinton: 'Heuvel', sans-serif;
+  --font-darker: var(--font-darker-grotesque), sans-serif;
+  --font-sofia: var(--font-sofia-sans), sans-serif;
+  --font-outfit: var(--font-outfit), sans-serif;
+  --font-geist-body: var(--font-geist), 'Geist', sans-serif;
+  --font-urbanist: var(--font-urbanist), 'Urbanist', sans-serif;
+}
+
+/* ── Marquee ──────────────────────────────────────────────── */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-reverse {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+@keyframes marquee-vertical {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+/* Fade edges only on md+ — mask-image is expensive on mobile */
+.marquee-fade-edges { mask-image: none; }
+@media (min-width: 768px) {
+  .marquee-fade-edges {
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  }
+}
+
+.animate-marquee         { animation: marquee 30s linear infinite; will-change: transform; backface-visibility: hidden; }
+.animate-marquee-slow    { animation: marquee 80s linear infinite; will-change: transform; backface-visibility: hidden; }
+.animate-marquee-reverse { animation: marquee-reverse 80s linear infinite; will-change: transform; backface-visibility: hidden; }
+.animate-marquee-vertical{ animation: marquee-vertical 20s linear infinite; will-change: transform; backface-visibility: hidden; }
+
+/* ── Floating hero image ──────────────────────────────────── */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+/* Disable float on mobile — causes GPU layer drops when scrolling back */
+.float-anim { animation: none; }
+@media (min-width: 768px) {
+  .float-anim { animation: floatY 4s ease-in-out infinite; will-change: transform; }
+}
+
+/* ── Pulse glow for CTA button ────────────────────────────── */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(56,99,255,0.0); }
+  50%       { box-shadow: 0 0 0 10px rgba(56,99,255,0.12); }
+}
+.glow-pulse { animation: glowPulse 2.5s ease-in-out infinite; }
+
+/* ── Ping dot (navbar live indicator) ────────────────────── */
+@keyframes pingDot {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50%       { transform: scale(2); opacity: 0; }
+}
+.animate-ping-dot { animation: pingDot 1.5s ease-in-out infinite; }
+
+/* ── Scroll-reveal ────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible           { opacity: 1; transform: translateY(0); }
+.reveal-delay-1           { transition-delay: 0.1s; }
+.reveal-delay-2           { transition-delay: 0.2s; }
+.reveal-delay-3           { transition-delay: 0.3s; }
+.reveal-delay-4           { transition-delay: 0.4s; }
+.reveal-left              { opacity: 0; transform: translateX(-32px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal-left.visible      { opacity: 1; transform: translateX(0); }
+.reveal-right             { opacity: 0; transform: translateX(32px);  transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal-right.visible     { opacity: 1; transform: translateX(0); }
+
+/* ── Revenue section animated gradient ───────────────────── */
+.revenue-gradient {
+  background: linear-gradient(135deg, #cce4ff, #3863ff, #7b9fff, #cce4ff, #3863ff);
+  background-size: 400% 400%;
+  -webkit-animation: revGrad 30s ease infinite;
+  -moz-animation: revGrad 30s ease infinite;
+  animation: revGrad 30s ease infinite;
+}
+@-webkit-keyframes revGrad {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes revGrad {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes revGrad {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+/* ── Thank you page animations ────────────────────────────── */
+@keyframes thankyou-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.35); opacity: 0; }
+}
+@keyframes thankyou-confetti {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-24px) scale(0.3); opacity: 0; }
+}
+@keyframes thankyou-ring-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 0; }
+}
+@keyframes confetti-fall {
+  0% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-180px) translateX(var(--drift, 0px)) rotate(720deg); opacity: 0; }
+}
+@keyframes thankyou-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-16px); }
+}
+
+/* ── Card hover micro-interactions ───────────────────────── */
+
+
+/* ── Pricing card animated gradients (3 unique) ──────────── */
+.pricing-gradient-1 {
+  background: linear-gradient(135deg, #3863ff, #7b9fff, #bfd7ff, #7b9fff, #3863ff);
+  background-size: 400% 400%;
+  -webkit-animation: pg1 30s ease infinite;
+  -moz-animation: pg1 30s ease infinite;
+  animation: pg1 30s ease infinite;
+}
+.pricing-gradient-2 {
+  background: linear-gradient(200deg, #3863ff, #7b9fff, #bfd7ff, #7b9fff, #3863ff);
+  background-size: 400% 400%;
+  -webkit-animation: pg2 26s ease infinite;
+  -moz-animation: pg2 26s ease infinite;
+  animation: pg2 26s ease infinite;
+  animation-delay: -10s;
+}
+.pricing-gradient-3 {
+  background: linear-gradient(315deg, #3863ff, #7b9fff, #bfd7ff, #7b9fff, #3863ff);
+  background-size: 400% 400%;
+  -webkit-animation: pg1 30s ease infinite;
+  -moz-animation: pg1 30s ease infinite;
+  animation: pg1 30s ease infinite;
+}
+
+@-webkit-keyframes pg1 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes pg1 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes pg1 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes pg2 {
+  0%{background-position:100% 0%}
+  50%{background-position:0% 100%}
+  100%{background-position:100% 0%}
+}
+@-moz-keyframes pg2 {
+  0%{background-position:100% 0%}
+  50%{background-position:0% 100%}
+  100%{background-position:100% 0%}
+}
+@keyframes pg2 {
+  0%{background-position:100% 0%}
+  50%{background-position:0% 100%}
+  100%{background-position:100% 0%}
+}
+
+@-webkit-keyframes pg3 {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+@-moz-keyframes pg3 {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+@keyframes pg3 {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+/* ── Button press ─────────────────────────────────────────── */
+.btn-press { transition: transform 0.15s ease, opacity 0.15s ease; }
+.btn-press:hover  { opacity: 0.9; }
+.btn-press:active { transform: scale(0.96); }
+
+/* ── Ripple ───────────────────────────────────────────────── */
+.ripple-btn { position: relative; overflow: hidden; }
+.ripple-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.2);
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.ripple-btn:active::after { opacity: 1; }
+
+/* ── Image hover zoom ─────────────────────────────────────── */
+.img-zoom { overflow: hidden; }
+.img-zoom img { transition: transform 0.4s ease; }
+.img-zoom:hover img { transform: scale(1.04); }
+
+/* ── Navbar scrolled ──────────────────────────────────────── */
+.navbar-scrolled {
+  box-shadow: 0 4px 24px rgba(56,99,255,0.10);
+  background: rgba(206,235,255,0.95) !important;
+  backdrop-filter: blur(12px);
+}
+
+/* ── Spinner ──────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+.animate-spin-fast { animation: spin 0.7s linear infinite; }
+
+/* ── Modal animations ─────────────────────────────────────── */
+@keyframes fadeInBg    { from { opacity:0; }                        to { opacity:1; } }
+@keyframes slideUpModal{ from { transform:translateY(32px); opacity:0; } to { transform:translateY(0); opacity:1; } }
+.animate-fade-in-bg    { animation: fadeInBg 0.2s ease; }
+.animate-slide-up-modal{ animation: slideUpModal 0.3s cubic-bezier(0.34,1.2,0.64,1); }
+
+/* ── Booking flow: step transitions + staggered entrances ──── */
+@keyframes booking-step {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes booking-pop {
+  from { opacity: 0; transform: scale(0.92) translateY(6px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.booking-step  { animation: booking-step 0.35s cubic-bezier(0.22,1,0.36,1) both; }
+/* Staggered child entrance — set --i on each child for its index. */
+.booking-stagger > * {
+  animation: booking-pop 0.32s cubic-bezier(0.22,1,0.36,1) both;
+  animation-delay: calc(var(--i, 0) * 18ms);
+}
+.booking-field {
+  animation: booking-step 0.4s cubic-bezier(0.22,1,0.36,1) both;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .booking-step,
+  .booking-field,
+  .booking-stagger > * {
+    animation: none !important;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* ── Swiper pagination bullets ───────────────────────────────── */
+.testimonial-swiper .swiper-pagination {
+  position: relative !important;
+  margin-top: 24px !important;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 4px !important;
+  opacity: 1 !important;
+  background: linear-gradient(180deg, rgba(56, 99, 255, 0.35) 0%, #CEEBFF 88.94%, #CEEBFF 100%) !important;
+  border-radius: 5.65926px !important;
+  transform: rotate(-133.33deg) !important;
+  transition: all 0.2s ease;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  background: #3863ff !important;
+}
