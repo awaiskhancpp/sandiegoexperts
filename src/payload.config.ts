@@ -29,6 +29,5 @@ export default buildConfig({
       connectionString: process.env.DATABASE_URL || '',
     },
   }),
-  sharp,
   plugins: [],
 })
